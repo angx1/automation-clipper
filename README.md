@@ -1,4 +1,5 @@
-A simple, open-source macOS menu bar application for effortlessly running Python scripts with an extra of motivation.
+A simple, open-source macOS menu bar application for effortlessly 
+running Python scripts with an extra of motivation.
 
 <img align="center" width="386" alt="Screenshot 2024-10-13 at 19 28 50" src="https://github.com/user-attachments/assets/5b97b3c8-d35d-4e4f-9afb-b96dd2481267">
 
