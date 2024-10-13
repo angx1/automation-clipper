@@ -9,12 +9,12 @@ import Foundation
 import PythonKit
 
 class PythonController {
-    func runSortDownloads() -> PythonObject {
+    func runSortDownloads(script: String) -> PythonObject {
         let sys = Python.import("sys")
-        sys.path.append("/Users/angel/Documents/dev/automation/python-automation/python-automation/")
+        sys.path.append("{path}/python-automation/python-automation/Scripts") // Complete with your global path to ./Scripts
         let file = Python.import("AutomationScript")
-        let response = file.sort_downloads()
-        
+        let response = file.sort_downloads(script)
+
         return response
         
     }

@@ -48,7 +48,7 @@ struct python_automationApp: App {
                     VStack(spacing: 12) {
                         AutomationButton(icon: "arrow.clockwise.square", title: "organize", subtitle: "/Downloads", custom: false)
                             .onTapGesture {
-                                let _ = PythonController().self.runSortDownloads()
+                                let _ = PythonController().self.runSortDownloads(script: "sort_downloads")
                             }
                     }
                     .frame(width: 111, height:  30)
