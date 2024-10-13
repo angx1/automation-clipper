@@ -2,17 +2,10 @@
 import os
 import shutil
 
-
-def hello_world():
-    return "hello world"
-
-
 def sort_downloads():
     downloads_path = os.path.join(os.path.expanduser("~"), "Downloads")
     target = downloads_path
     extensions = {item.split('.')[-1] for item in os.listdir(target)}
-    # print(extensions)
-
 
 
     # create folder for each extension type
