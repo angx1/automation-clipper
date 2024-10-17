@@ -6,13 +6,13 @@ running Python scripts with an extra of motivation.
 ## Setting Up
 
 1. Clone Repository on XCode
-2. On _PythonControler.swift_ update Scripts
+2. On _PythonControler.swift_ update Script's path
    
    ```SwiftUI
    sys.path.append("{/Users/...}/python-automation/python-automation/Scripts")
    ```
    
-4. Build the app and locale apps's folder
+4. Build the app and locate apps's folder
 5. Drag app to Application folder
 
 
